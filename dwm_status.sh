@@ -1,7 +1,8 @@
 #!/usr/bin/env sh
 
 while true; do
-  day=$(date +"%a")
-  xsetroot -name "$day "
+  _day=$(date +"%a")
+  _date=$(date -I)
+  xsetroot -name "$_day $_date  |"
   sleep 5
 done
