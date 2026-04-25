@@ -8,5 +8,6 @@ $XDG_CONFIG_HOME/xorg/dwm_status.sh &
 xset -dpms s 1200 & # 1200s/60s/min=20minutes
 sxhkd & #
 
+cd ~ &
 exec dwm
 # No commands below here will be excuted.
